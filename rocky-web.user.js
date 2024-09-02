@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Rocky Rabbit Web
-// @version      1.0
+// @version      1.1
 // @description  Запуск Rocky Rabbit в браузере
 // @author       mudachyo
 // @match        https://web.telegram.org/*/*
@@ -20,7 +20,11 @@
         let src = iframe.src;
   
         if (src.includes('play.rockyrabbit.io') && !src.includes('tgWebAppPlatform=ios')) {
-          src = src.replace(/tgWebAppPlatform=web/g, 'tgWebAppPlatform=ios');
+          if (src.includes('tgWebAppPlatform=weba')) {
+            src = src.replace(/tgWebAppPlatform=weba/g, 'tgWebAppPlatform=ios');
+          } else if (src.includes('tgWebAppPlatform=web')) {
+            src = src.replace(/tgWebAppPlatform=web/g, 'tgWebAppPlatform=ios');
+          }
   
           iframe.src = src;
   
