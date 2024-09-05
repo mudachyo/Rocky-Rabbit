@@ -7,7 +7,7 @@
 
 ---
 # Как запустить
-- Установить в свой браузер расширение [Violentmonkey](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=be)
+- Установить в свой браузер два расширения [Ignore X-Frame headers](https://chromewebstore.google.com/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe) и [Violentmonkey](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=be)
 - Для того, чтобы **Rocky Rabbit** открывался в браузере установите [этот скрипт](https://github.com/mudachyo/Rocky-Rabbit/raw/main/rocky-web.user.js)
 - Для установки **автокликера** установите [этот скрипт](https://github.com/mudachyo/Rocky-Rabbit/raw/main/rocky-autoclicker.user.js)
 - Открыть [Бота Rocky Rabbit](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3Drocky_rabbit_bot%26appname%3Dplay%26startapp%3DfrId2475526) и запустить игру
